@@ -28,7 +28,7 @@ function mergeSort(arr) {
             console.log("extra left " + left[m])
             sortedArray.push(left[m])
         }
-        for (n; n<k; n++) {
+        for (n; n<j; n++) {
             console.log("extra right " + right[n])
             sortedArray.push(right[n])
         }
